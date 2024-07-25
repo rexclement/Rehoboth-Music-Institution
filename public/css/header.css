@@ -1,0 +1,89 @@
+
+.logo {
+    display: inline-block;
+    vertical-align: middle; /* Aligns the logo vertically */
+    width: 110px;
+    height: 100px;
+    margin-left: 25px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 120px;
+    text-align: center;
+}
+.header-content{
+    width: 100%;
+}
+
+.header-image{
+   width: 210px;
+   text-align: center;
+   
+   
+}
+
+p {
+    display: inline-block;
+    text-align: center;
+     /* Aligns the paragraph vertically */
+    margin-left: 10px; /* Adjust as needed */
+    color: aliceblue; /* Ensures the paragraph color matches the design */
+}
+
+.header-container {
+    background-color: #080784;
+     /* Adds padding inside the container */
+    width: 100%;
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: 3;
+    height: 150px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    flex-wrap: nowrap;/* Makes the row a flex container */
+ /* Centers items vertically in the row */
+    max-width: 100%; /* Ensures the row does not exceed its container */
+    height: 100%;
+}
+.sub-title{
+    margin-left: 120px;
+    text-align: center; 
+    color: aliceblue;  
+}
+.svg{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+@media(max-width: 375px){
+    .logo{
+        height: 55px;
+        width: 55px;
+    }
+    .title{
+        font-size: 35px;
+        margin-left: 0px;
+        width: 700px;
+    }
+    .sub-title{
+        margin-left: 0px;
+        width: 700px; 
+    }
+    .header-content {
+        width: 670px; 
+    }
+    .row{
+        width: 100%;
+    }
+}
